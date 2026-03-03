@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lesson-content h2 {
+  @apply text-2xl font-bold text-eco-700 mt-8 mb-4;
+}
+
+.lesson-content h3 {
+  @apply text-xl font-bold text-eco-600 mt-6 mb-3;
+}
+
+.lesson-content h4 {
+  @apply text-lg font-semibold text-earth-800 mb-2;
+}
+
+.lesson-content p {
+  @apply text-earth-700 text-lg leading-relaxed mb-4;
+}
+
+.lesson-content ul {
+  @apply list-disc list-inside space-y-2 text-earth-700 text-lg mb-4;
+}
+
+.lesson-content li {
+  @apply ml-4;
+}
+
+.lesson-content .lesson-section {
+  @apply bg-eco-50 rounded-xl p-6 mb-4;
+}
+
+.lesson-content .waste-category {
+  @apply rounded-2xl p-8 mb-6 shadow-lg border-4;
+}
+
+.lesson-content .waste-category h4 {
+  @apply text-2xl font-bold mb-3 mt-4;
+}
+
+.lesson-content .waste-category p {
+  @apply text-lg;
+}
+
+.lesson-content .waste-icon-wrapper {
+  @apply flex justify-center mb-2;
+}
+
+.lesson-content .waste-icon {
+  @apply w-20 h-20;
+}
+
+.lesson-content .waste-paper {
+  @apply bg-blue-50 border-blue-500;
+}
+
+.lesson-content .waste-paper .waste-icon {
+  @apply text-blue-600;
+}
+
+.lesson-content .waste-paper h4 {
+  @apply text-blue-800;
+}
+
+.lesson-content .waste-plastic {
+  @apply bg-yellow-50 border-yellow-500;
+}
+
+.lesson-content .waste-plastic .waste-icon {
+  @apply text-yellow-600;
+}
+
+.lesson-content .waste-plastic h4 {
+  @apply text-yellow-800;
+}
+
+.lesson-content .waste-glass {
+  @apply bg-green-50 border-green-500;
+}
+
+.lesson-content .waste-glass .waste-icon {
+  @apply text-green-600;
+}
+
+.lesson-content .waste-glass h4 {
+  @apply text-green-800;
+}
+
+.lesson-content .waste-organic {
+  @apply bg-amber-50 border-amber-700;
+}
+
+.lesson-content .waste-organic .waste-icon {
+  @apply text-amber-700;
+}
+
+.lesson-content .waste-organic h4 {
+  @apply text-amber-900;
+}
+
+.lesson-content strong {
+  @apply font-bold text-eco-700;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .touch-manipulation {
+    touch-action: manipulation;
+  }
+}
